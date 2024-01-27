@@ -26,8 +26,8 @@ spec:
         image: public.ecr.aws/e3i3d3z5/three-tier-frontend-d:latest
         imagePullPolicy: Always
         env:
-          - name: REACT_APP_BACKEND_URL
-            value: "http://app.trainwithshubham.com/api/tasks" 
+        - name: REACT_APP_BACKEND_URL
+          value: "http://cloud.awsdevops.online/api/tasks"
         ports:
         - containerPort: 3000
-       
+
